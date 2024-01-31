@@ -1,0 +1,19 @@
+.form{
+   text-align: center;
+   background-color: #d1cfcf;
+}
+.form label{
+    margin-top: 6px;
+}
+
+.buttonConfirm{
+    width: 1502px;
+    height: 40px;
+    margin: 10px 10px;
+    background: rgb(136,72,181);
+    background: linear-gradient(0deg,rgb(151 171 182) 18%, rgba(61,95,171,1) 100%);
+}
+.orderNumber{
+    background-color: black;
+    text-align: center;
+}

@@ -1,0 +1,84 @@
+.cartWidg{
+    background: rgb(93, 93, 95);
+    background: radial-gradient(circle, rgb(142, 161, 187) 38%, rgb(171, 191, 223) 83%);
+    text-align: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    font-size:1.5em;
+    margin: 3px 3px;
+    display: flex;
+  }
+
+  .iconCart{
+   margin-left: 13px;
+  }
+  
+.titleDetail{
+  text-align: center;
+}
+
+.divDOS{
+    text-align: end;
+    font-size: 0.7em;
+    margin-bottom: 1px;
+}
+
+.cartWidg .divDOS span {
+    margin-left: 2px;
+    text-decoration: none !important;
+    display: inline-block;
+  }
+  
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px; 
+}
+.cart-table th, .cart-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.cart-table th {
+  background-color: #a3b5c4
+}
+
+.delete-column {
+  width: 150px;
+  text-align: center; 
+}
+
+.cartVacio{
+  text-align: center;
+  font-style: italic;
+  color: #666; 
+  padding: 8px;
+}
+
+.cartVacio .Link{
+  text-decoration: none;
+  color: #4d73a2;
+}
+
+.onDecrement{
+  width: 30px;
+  background-color: #e4dc45;
+}
+
+.onIncrement{
+  width: 30px;
+  background-color: #446d85;
+}
+
+.onDelete{
+  width: 40px;
+}
+
+.finishbuy{
+  width: 170px;
+  height: 50px;
+  background: #446d85(136,72,181);
+  background: linear-gradient(10deg,#446d85 50%, #e4dc45 50%);
+}

@@ -1,0 +1,35 @@
+.main-error{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.back-error-404{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: changeColor 9s infinite;;
+    width: 100%;
+}
+.redirection{
+     /*el boton para volver a inicio*/
+     background: radial-gradient(circle, rgb(134 183 194) 36%, rgb(113 151 175 / 61%) 82%);
+     /*para centrar el contenido*/
+     text-align: center;
+     width: 40%;
+     color: black;
+}
+.redirection .link{
+    text-decoration: none;
+    color: black;
+}
+.img-error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+   
+}
+.img-eror img{
+    width: 70%;
+}

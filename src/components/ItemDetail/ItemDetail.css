@@ -1,0 +1,24 @@
+.all{
+  display: flex;
+}
+.title{
+  display: flex;
+  justify-content: center;
+}
+.list{
+   font-size: 1.1em;
+}
+
+
+
+.swal2-popup {
+  width: 500px; 
+  height: 150px;
+  font-size: 10px; 
+}
+
+
+.imgDetail{
+  width: 350px;
+  height: 350px;
+}
